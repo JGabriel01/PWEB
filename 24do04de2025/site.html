@@ -7,13 +7,59 @@
     <style>
         .ini{
             background-color: lightblue;
-            display: flex;
+            padding: 20px 20px 20px 20px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .center{
+            background-color: lightblue;
+            margin-top: 70px;
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 50px 25px 50px 25px;
+        }
+        form{
+            margin: auto;
+            width: 300px;
+            text-align: left;
+        }
+        label{
+           display: block;
+           text-align: left;
+        }
+        input:hover{
+            background-color: lightgreen;
+        }
+        input{
+            background-color: lightgray;
+        }
+        input[type=text]:focus{
+            background-color: yellow;
+        }
+        input[type=password]:focus{
+            background-color: blue;
+            color: white;
+        }
+        input[type=date]:focus{
+            background-color: green;
+            color: white;
         }
     </style>
 </head>
 <body>
     <div class="ini">
         <h1> Site mais importante de todos!</h1>
+    </div>
+    <div class="center">
+        <form>
+            <label>Digite seu nome:</label>
+            <input type="text" class="yellow"> 
+            <label> Digite a data: </label>
+            <input type="date">
+            <label class="pass"> Digite a senha: </label>
+            <input type="password">
+        </form>
     </div>
 </body>
 </html>
