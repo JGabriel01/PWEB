@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Dinâmica com o javaScript</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        th{
+            background-color: lightgrey;
+        }
+        table, td,th{
+            border-style: solid;
+            border-collapse: collapse;
+            border-width: 1px;
+        }
+        table{            
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1> Carros e seus principais preços!</h1>
+
+    <table>
+        <thead>
+            <th class="th2" colspan="3"> 
+                Carros
+            </th>
+        </thead>
+        <thead> 
+            <th class="th2"> Marca </th>
+            <th class="th2"> Modelo </th>
+            <th class="th2"> Preço </th>
+        </thead>
+        <tbody id="carros">
+
+        </tbody>
+    </table>
+    <script>
+        let Array1, Array2, Array3
+        Array1 = ['Ford', 'Renault', 'Fiat', 'Chevrolet', 'Volkswagen', 'Peugeot', 'Citroen', 'Toyota', 'Hyundai', 'Nissan']
+        Array2 = ['Fusion', 'Sandero', 'Siena', 'Equinox', 'Jetta', '3008', 'Xsara', 'Corolla', 'Creta', 'Frontier']
+        Array3 = ['R$ 85.000,00', 'R$ 35.000,00', 'R$ 35.0000,00', 'R$ 170.000,00', 'R$ 95.000,00', 'R$ 94.000,00', 'R$ 45.000,00', 'R$ 75.000,00', 'R$ 85.000,00', 'R$ 105.000,00']
+        
+        const tabela = document.getElementById('carros')
+
+        for (let i = 0; i < Array1.length; i++) {
+            const linha = document.createElement('tr');
+         
+            linha.innerHTML =  `
+                <td> ${Array1[i]} </td> 
+                <td> ${Array2[i]} </td>
+                <td> ${Array3[i]} </td>
+`
+            tabela.appendChild(linha)
+        }
+        </script>
+</body>
+</html>
