@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tabela </title>
+</head>
+<body>
+    <script>
+        const tabela = document.createElement('table')
+        tabela.style.border = "1px solid black"
+        tabela.style.borderCollapse = "Collapse"
+        tabela.style.marginLeft = "auto"
+        tabela.style.marginRight = "auto"
+
+        let th1 = document.createElement('th')
+        th1.style.borderBottom = "1px solid black"
+        th1.textContent = "Faixa Etária";
+
+        let th2 = document.createElement('th')
+        th2.style.borderBottom = "1px solid black"
+        th2.textContent = "Quantidade";
+
+        tabela.appendChild(th1)
+        tabela.appendChild(th2)
+        document.body.append(tabela)
+
+        let tr1 = document.createElement("tr")
+        tr1.innerHTML = `<td> Bebê <td> ${bebe}`
+        
+        let tr2 = document.createElement("tr")
+        tr2.innerHTML = '<td> Criança </td>'
+
+        let tr3 = document.createElement("tr")
+        tr3.innerHTML = '<td> Adolescente </td>'
+
+        let tr4 = document.createElement("tr")
+        tr4.innerHTML = '<td> Adulto </td>'
+
+        let tr5 = document.createElement("tr")
+        tr5.innerHTML = '<td> Idoso </td>'
+
+        tabela.appendChild(tr1)
+        tabela.appendChild(tr2)
+        tabela.appendChild(tr3)
+        tabela.appendChild(tr4)
+        tabela.appendChild(tr5)
+
+            let bebe = 0
+
+
+    </script>
+</body>
+</html>
