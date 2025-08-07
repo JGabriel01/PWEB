@@ -1,0 +1,109 @@
+<!DOCTYPE html> <!-- Digite "!" para criar o código html mais rápido através das emmet abreviations, ou "html:5" -->
+<html lang="pt-br"> <!-- Quando você criar o html através dos atalhos acima, você pode navegar maais rapidamente entre as opções usando o "tab" -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atalhos VsCode</title>
+</head>
+<body>                                 <!-- Para aninhar as tags que você quiser basta colocar primeiro a tag em que você quer aninhar a uma outra, logo depois você coloca o sinal ">", e depois você coloca o nome da tag que vai ser aninhada à tag principal. Ex.: div>a -->
+<div><a href=""></a></div>
+
+<!-- Para acrescentar uma tag após uma outra usamos o operador "+". Ex.:
+ div>p+h1 -->
+<div>
+    <p></p>
+    <h1></h1>
+</div>
+
+<!-- Para escrever o conteúdo de uma tag de forma mais rápida colocaremos primeiro o nome da tag que você quer colocar o conteúdo, e logo após ela colocamos chaves "{}", e dentro dessas chaves colocamos o nome do conteúdo que quisermos. Ex.: div>p+h1+p{Olá, Mundo!} -->
+<div>
+    <p></p>
+    <h1></h1>
+    <p>Olá,Mundo</p>
+</div>
+
+<!-- Para adicionar uma class(classe) aos elementos de forma mais rápida colocamos primeiro o nome da tag na qual a classe vai ser atribuída, e logo após adicionamos: ".nomedaclassedesejada" Ex.: Usando a tag "nav" para ser atribuída uma classe => nav.menu>ul>li. -->
+<nav class="menu">
+    <ul>
+        <li></li>
+    </ul>
+</nav>
+
+<!-- Caso queiramos colocar mais de uma tag "li" ao código anterior, usamos o operador "*" e o número de vezes que você quer que a tag seja repetida. Ex.: nav.menu>ul>li*5 -->
+<nav class="menu">
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</nav>
+
+<!-- Caso queiramos adicionar um id para cada tag, usamos "#nomedaid". Caso queiramos iterar o id para cada elemento, usamos: "#nomedaid$". Ex.: nav.menu>ul>li#item$*5>a -->
+<nav class="menu">
+    <ul>
+        <li id="item1"><a href=""></a></li>
+        <li id="item2"><a href=""></a></li>
+        <li id="item3"><a href=""></a></li>
+        <li id="item4"><a href=""></a></li>
+        <li id="item5"><a href=""></a></li>
+    </ul>
+</nav>
+
+<!-- Lembrando, se você usar a tecla "tab" depois de criar o código html, você pode navegar mais rapidamente entre os conteúdos de uma tag -->
+
+<!-- Exemplo final:  section*5#secao$>article.conteudo>h1+p{Texto}|c (o |c vai identificar através do comentário cada texto do nosso código)-->
+<section id="secao1">
+    <article class="conteudo">
+        <h1></h1>
+        <p>Texto</p>
+    </article>
+    <!-- /.conteudo -->
+</section>
+<!-- /#secao1 -->
+<section id="secao2">
+    <article class="conteudo">
+        <h1></h1>
+        <p>Texto</p>
+    </article>
+    <!-- /.conteudo -->
+</section>
+<!-- /#secao2 -->
+<section id="secao3">
+    <article class="conteudo">
+        <h1></h1>
+        <p>Texto</p>
+    </article>
+    <!-- /.conteudo -->
+</section>
+<!-- /#secao3 -->
+<section id="secao4">
+    <article class="conteudo">
+        <h1></h1>
+        <p>Texto</p>
+    </article>
+    <!-- /.conteudo -->
+</section>
+<!-- /#secao4 -->
+<section id="secao5">
+    <article class="conteudo">
+        <h1></h1>
+        <p>Texto</p>
+    </article>
+    <!-- /.conteudo -->
+</section>
+<!-- /#secao5 -->
+
+<!-- Dica extra: Caso você queira criar um texto lorem ipsum, você só precisa digitar "lorem" no vscode e apertar "tab". Caso também você usar digitar "lorem15" ele vai criar um lorem com 15 palavras (no caso você pode modificar o número de palavras que você quer no lorem). Também se você quiser criar vários parágrafos lorem, é só você digitar "lorem*15" (nesse caso irá criar 15 parágrafos com textos lorem, mas você pode alterar o número de parágrafos que você quer criar) -->
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi distinctio atque, praesentium laborum quia ducimus, accusantium non consequatur amet hic delectus, quas libero! Nisi consequuntur amet at consectetur fuga quo?
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Non recusandae ad numquam asperiores dolorum mollitia!
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sint consectetur, reprehenderit suscipit necessitatibus numquam facere sequi repudiandae nihil? Architecto necessitatibus atque ipsum doloremque numquam ducimus aut dolorum earum. Ipsam.
+Laborum iusto natus accusamus sed quod voluptas consequatur fuga ipsam sequi vel, eos quo assumenda tempore asperiores vero minus! Placeat, laborum! Asperiores soluta ex tenetur laboriosam vitae ab optio quidem.
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consequuntur veritatis nam corrupti pariatur?
+Sit illo labore blanditiis necessitatibus cupiditate cumque velit quae dolor. Vero tempora natus illum?
+</body>
+</html>
