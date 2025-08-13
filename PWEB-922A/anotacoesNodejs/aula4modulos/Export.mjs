@@ -1,3 +1,3 @@
 export function soma(n,b){
   return n+b
-} /*Usamos o método de exportação de módulos export somente em arquivos .mjs, já o import pode ser usado em arquivos .js padrão. No Node.js, basta você colocar a terminação .mjs para usar os módulos do ES6, mas no html ou json você deve usar o type="module" (na tag script, se for no html. No caso do html, o arquivo com o export não precisa ter terminação .mjs) para dizer ao html que aquele arquivo possui módulos em ecmascript6*/
+} /*Usamos o método de exportação de módulos export somente em arquivos .mjs, já o import pode ser usado em arquivos .js padrão. No Node.js, basta você colocar a terminação .mjs para usar os módulos do ES6, mas no html ou json você deve usar o type="module" (na tag script, se for no html. No caso do html, o arquivo com o export não precisa ter terminação .mjs e sim .js) para dizer ao html que aquele arquivo possui módulos em ecmascript6*/
