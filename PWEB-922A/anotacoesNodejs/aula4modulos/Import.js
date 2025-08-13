@@ -1,3 +1,3 @@
-import {soma} from ("./Export.mjs")
+import {soma} from "./Export.mjs";
 
 soma(2)
