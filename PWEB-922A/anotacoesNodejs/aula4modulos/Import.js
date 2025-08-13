@@ -1,2 +1,2 @@
-const soma = import {soma} from "./Export.mjs";
+import {soma} from "./Export.mjs";
 console.log(soma(2))
