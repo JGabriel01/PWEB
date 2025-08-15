@@ -1,0 +1,27 @@
+{
+  "name": "servidor",
+  "version": "0.0.1",
+  "description": "Hello World",
+  "keywords": [
+    "HW",
+    "servidor"
+  ],
+  "homepage": "https://github.com/JGabriel01/PWEB#readme",
+  "bugs": {
+    "url": "https://github.com/JGabriel01/PWEB/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JGabriel01/PWEB.git"
+  },
+  "license": "ISC",
+  "author": "José Gabriel",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
