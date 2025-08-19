@@ -1,18 +1,15 @@
-// 1. Importar o Express
-const express = require('express');
+const express = require('express')
 
-// 2. Criar uma instância do Express
-const app = express();
+const app = express()
 
-// 3. Definir a porta do servidor
-const port = 3000;
+const port = 3000
 
-// 4. Criar uma rota para a URL raiz ('/')
-app.get('/', (req, res) => {
-  res.send('Olá! Este é meu primeiro servidor web com Express.');
-});
+app.get("/" , (req, res) => {
+  res.send("Olá este é o meu primeiro servidor!")
+})
 
-// 5. Iniciar o servidor e escutar na porta definida
 app.listen(port, () => {
-  console.log(`Servidor rodando em http://localhost:${port}`);
-});
+  console.log(`Servidor Ativo na porta ${port}`)
+})
+
+//http://localhost:3000
